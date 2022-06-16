@@ -1,0 +1,97 @@
+site_name: real mkdocs.yml
+site_url: https://samzong.me/real-mkdocs-yml
+site_description: collection beautiful mkdocs.yml Inspired by the awesome list.
+site_author: samzong.lu@gmail.com
+docs_dir: docs/
+repo_name: 'real mkdocs.yml'
+repo_url: https://github.com/samzong/real-mkdocs-yml
+edit_uri: ""
+theme: 
+  name: material 
+  prev_next_buttons_location: both
+  icon:
+    logo: logo
+    repo: fontawesome/brands/github
+  favicon: images/favicon-car.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - content.code.annotate
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+
+markdown_extensions:
+  - smarty
+  - sane_lists
+  - fenced_code
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.magiclink
+  - codehilite
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.snippets
+  - pymdownx.keys
+  - abbr
+  - def_list
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+copyright: 2022 <a href="https://github.com/samzong">SAMZONG</a>.
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better. You can read more about our use of cookies
